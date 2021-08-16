@@ -1,0 +1,149 @@
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 3em;
+}
+
+body {
+  margin:20px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFF4
+}
+
+#counter {
+  font-size: 2.5rem;
+  color: #2b2d42;
+  border: 2px solid #8d99ae;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.4);
+  border-radius: 10px;
+  width: 270px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0.4rem;
+  background-color: #FCE196;
+}
+
+.increment {
+  width:50px;
+  height:50px;
+  padding: 1rem 2rem;
+  background-color: #8d99ae;
+  border: 1px solid #edf2f4;
+  border-radius: 10px;
+  color: #edf2f4;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Oswald';
+  font-size:60px;
+  margin:0 30px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+  cursor:pointer;
+  transition:all 0.2s ease-in-out;
+}
+
+.decrement {
+  width:50px;
+  height:50px;
+  padding: 1rem 2rem;
+  background-color: #8d99ae;
+  border: 1px solid #edf2f4;
+  border-radius: 10px;
+  color: #edf2f4;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Oswald';
+  font-size: 60px;
+  margin: 0 30px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+  cursor:pointer;
+  transition:all 0.2s ease-in-out;
+}
+
+.increment:hover {
+  background-color: rgba(23, 139, 43, 0.4);
+}
+
+.decrement:hover {
+  background-color: rgba(233, 39, 39, 0.4);
+}
+
+.number {
+  width:50px;
+  height:50px;
+  padding: 1rem 2rem;
+  background-color: #8d99ae;
+  border: 1px solid #edf2f4;
+  border-radius: 10px;
+  color: #edf2f4;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Oswald';
+  font-size:60px;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+  overflow: hidden;
+}
+
+.sendbtn {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  background-color: #8d99ae;
+  border: 1px solid #edf2f4;
+  border-radius: 10px;
+  color: #edf2f4;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+  overflow: hidden;
+  text-transform: uppercase;
+  justify-content: center;
+  bottom: 20px;
+  position: absolute;
+}
+
+.sendbtn:hover{
+  transform: scale(1.01);
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.w100{
+  min-width:100%;
+}
+
+.text-center{
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Hahmlet', sans-serif;
+  font-size: 50pt;
+}
+
+p {
+  font-family: 'Georama', sans-serif;
+  font-size: 20pt;
+}
+
+/*-- Media Query Smartphone --*/
+@media (max-width: 736px){
+
+    section{
+        padding: 1em 0em 0em 0em;
+    }
+}
